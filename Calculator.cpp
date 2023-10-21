@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-int main(){
+
+main(){
 	float num1,num2;
 	int cal;
 	
@@ -16,7 +17,7 @@ int main(){
 	cout<<endl;
 	
 
-		cin >> cal;
+		cin>>cal;
 		switch(cal){
 			case 1:
 				cout<<" The addition of "<<num1<< " and "<<num2<<"="<<num1+num2<<endl; 
@@ -35,6 +36,7 @@ int main(){
 				cout<<endl;	
 				break;	
 			case 0:
+				cout<<"GOOD BYE!"<<endl;
 				break;
 			default:
 				cout<<"Invalid operator. Please try again."<<endl;
@@ -44,4 +46,3 @@ int main(){
 	
 	
 }
-
